@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Plant Disease AI</h1>
+            <p>Upload a clear photo of a plant leaf to detect potential diseases.</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <form id="uploadForm" class="upload-box" enctype="multipart/form-data">
+                    <input type="file" id="fileInput" name="file" accept="image/*" class="file-input" hidden>
+                    <label for="fileInput" class="upload-label">
+                        <div class="upload-icon">🍃</div>
+                        <span id="fileName">Click to browse or drag image here</span>
+                        <span class="upload-hint">Supports JPG, PNG</span>
+                    </label>
+                    <button type="submit" id="analyzeBtn" class="btn primary-btn" disabled>Analyze Image</button>
+                </form>
+            </div>
+
+            <!-- Image Preview Section -->
+            <div id="previewContainer" class="preview-container hidden">
+                <img id="imagePreview" alt="Leaf Preview">
+            </div>
+
+            <!-- Loader -->
+            <div id="loader" class="loader hidden">
+                <div class="spinner"></div>
+                <p>AI is analyzing...</p>
+            </div>
+
+            <!-- Results Section -->
+            <div id="resultContainer" class="result-container hidden">
+                <h2>Analysis Result</h2>
+                
+                <div id="mockWarning" class="alert warning hidden"></div>
+                
+                <div class="result-card">
+                    <div class="metric">
+                        <span class="label">Detected Disease</span>
+                        <strong id="diseaseName" class="value text-primary">-</strong>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Confidence Score</span>
+                        <strong id="confidenceScore" class="value">-</strong>
+                    </div>
+                </div>
+                
+                <div id="errorAlert" class="alert error hidden"></div>
+                
+                <button id="resetBtn" class="btn secondary-btn">Try Another Image</button>
+            </div>
+
+            <!-- Validation Error Card -->
+            <div id="validationErrorContainer" class="validation-error-card hidden">
+                <div class="error-icon">🚫</div>
+                <h3>Invalid Image Detected</h3>
+                <p id="validationMessage">This image does not appear to be a plant leaf.</p>
+                
+                <div class="suggestions-box">
+                    <h4>How to fix:</h4>
+                    <ul>
+                        <li>Upload close-up leaf images</li>
+                        <li>Avoid non-plant objects (faces, cars, etc.)</li>
+                        <li>Ensure good lighting and clarity</li>
+                        <li>Ensure the leaf is the main subject</li>
+                    </ul>
+                </div>
+                
+                <button class="btn secondary-btn retry-btn">Upload Again</button>
+            </div>
+
+            <!-- Recommendation Section -->
+            <div id="recommendationContainer" class="recommendation-section hidden">
+                <div class="recommendation-title">
+                    <span class="title-icon">🩺</span>
+                    <span>AI Treatment Recommendation</span>
+                </div>
+
+                <div class="info-grid">
+                    <!-- Description & Symptoms -->
+                    <div class="info-card">
+                        <div class="info-header">📋 Overview</div>
+                        <div id="diseaseDesc" class="info-content"></div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-header">🔍 Symptoms</div>
+                        <ul id="symptomsList" class="info-list"></ul>
+                    </div>
+
+                    <!-- Causes & Prevention -->
+                    <div class="info-card">
+                        <div class="info-header">⚠️ Causes</div>
+                        <ul id="causesList" class="info-list"></ul>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-header">🛡️ Prevention</div>
+                        <ul id="preventionList" class="info-list"></ul>
+                    </div>
+
+                    <!-- Treatment & Fertilizers -->
+                    <div class="info-card highlight-card">
+                        <div class="info-header">🧪 Treatments & Fertilizers</div>
+                        <ul id="fertilizersList" class="info-list"></ul>
+                    </div>
+
+                    <!-- Usage Instructions -->
+                    <div class="info-card">
+                        <div class="info-header">📖 Usage Instructions</div>
+                        <div id="usageInstructions" class="info-content"></div>
+                    </div>
+
+                    <!-- Recovery & Expert -->
+                    <div class="info-card">
+                        <div class="info-header">🌱 Recovery Tips</div>
+                        <div id="recoveryTips" class="info-content"></div>
+                    </div>
+
+                    <div class="info-card expert-card">
+                        <div class="info-header">💡 Expert Suggestion</div>
+                        <div id="expertSuggestion" class="info-content"></div>
+                    </div>
+                </div>
+
+                <!-- Safety Footer -->
+                <div class="safety-alert">
+                    <div class="safety-icon">🛡️</div>
+                    <div class="safety-text">
+                        <strong>Crop Safety Advice</strong>
+                        <span id="safetyAdvice">Always follow local agricultural guidelines and read pesticide labels before application.</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const fileName = document.getElementById('fileName');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const uploadForm = document.getElementById('uploadForm');
+        const imagePreview = document.getElementById('imagePreview');
+        const previewContainer = document.getElementById('previewContainer');
+        const loader = document.getElementById('loader');
+        const resultContainer = document.getElementById('resultContainer');
+        const resetBtn = document.getElementById('resetBtn');
+
+        // Allow previewing the file
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                fileName.textContent = file.name;
+                analyzeBtn.disabled = false;
+                
+                // Show preview
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    imagePreview.src = event.target.result;
+                    previewContainer.classList.remove('hidden');
+                    
+                    // Hide results if re-uploading
+                    resultContainer.classList.add('hidden');
+                }
+                reader.readAsDataURL(file);
+            } else {
+                analyzeBtn.disabled = true;
+                fileName.textContent = "Click to browse or drag image here";
+                previewContainer.classList.add('hidden');
+            }
+        });
+
+        // Form Submit
+        uploadForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            // UI State updates
+            analyzeBtn.disabled = true;
+            loader.classList.remove('hidden');
+            resultContainer.classList.add('hidden');
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                loader.classList.add('hidden');
+                
+                if(data.error) {
+                    if (data.validation_error) {
+                        // Show specific validation error card
+                        const valContainer = document.getElementById('validationErrorContainer');
+                        document.getElementById('validationMessage').textContent = data.message;
+                        valContainer.classList.remove('hidden');
+                        previewContainer.classList.add('hidden');
+                        return;
+                    }
+
+                    resultContainer.classList.remove('hidden');
+                    document.getElementById('errorAlert').textContent = data.error === true ? data.message : data.error;
+                    document.getElementById('errorAlert').classList.remove('hidden');
+                    document.querySelector('.result-card').style.display = 'none';
+                    return;
+                }
+
+                resultContainer.classList.remove('hidden');
+
+                // Show data
+                document.getElementById('errorAlert').classList.add('hidden');
+                document.querySelector('.result-card').style.display = 'flex';
+                
+                document.getElementById('diseaseName').textContent = data.disease;
+                document.getElementById('confidenceScore').textContent = data.confidence;
+                
+                // Show mock warning if applicable
+                const mockWarning = document.getElementById('mockWarning');
+                if (data.mock_mode) {
+                    mockWarning.textContent = "⚠️ " + data.message;
+                    mockWarning.classList.remove('hidden');
+                } else {
+                    mockWarning.classList.add('hidden');
+                }
+
+                // FETCH RECOMMENDATIONS
+                if (data.raw_class) {
+                    fetchRecommendations(data.raw_class);
+                }
+                
+            } catch (error) {
+                loader.classList.add('hidden');
+                resultContainer.classList.remove('hidden');
+                document.getElementById('errorAlert').textContent = "Failed to communicate with server.";
+                document.getElementById('errorAlert').classList.remove('hidden');
+            } finally {
+                analyzeBtn.disabled = false;
+            }
+        });
+
+        resetBtn.addEventListener('click', resetUI);
+        
+        // Add listener for the new retry button
+        document.querySelector('.retry-btn').addEventListener('click', resetUI);
+
+        function resetUI() {
+            fileInput.value = '';
+            fileName.textContent = "Click to browse or drag image here";
+            analyzeBtn.disabled = true;
+            previewContainer.classList.add('hidden');
+            resultContainer.classList.add('hidden');
+            document.getElementById('recommendationContainer').classList.add('hidden');
+            document.getElementById('validationErrorContainer').classList.add('hidden');
+        }
+
+        async function fetchRecommendations(diseaseClass) {
+            const recommendationContainer = document.getElementById('recommendationContainer');
+            
+            try {
+                const response = await fetch('/get-disease-info', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ disease_class: diseaseClass })
+                });
+
+                if (!response.ok) throw new Error('Recommendation not found');
+
+                const info = await response.json();
+                
+                // Populate contents
+                document.getElementById('diseaseDesc').textContent = info.description;
+                document.getElementById('usageInstructions').textContent = info.usage_instructions;
+                document.getElementById('recoveryTips').textContent = info.recovery_tips;
+                document.getElementById('expertSuggestion').textContent = info.expert_suggestion;
+                document.getElementById('safetyAdvice').textContent = info.crop_safety;
+
+                // Populate lists
+                renderList('symptomsList', info.symptoms);
+                renderList('causesList', info.causes);
+                renderList('preventionList', info.prevention);
+                renderList('fertilizersList', info.fertilizers);
+
+                recommendationContainer.classList.remove('hidden');
+                
+                // Scroll to recommendations
+                recommendationContainer.scrollIntoView({ behavior: 'smooth' });
+
+            } catch (error) {
+                console.error("Failed to load recommendations:", error);
+                recommendationContainer.classList.add('hidden');
+            }
+        }
+
+        function renderList(elementId, items) {
+            const list = document.getElementById(elementId);
+            list.innerHTML = '';
+            if (items && items.length > 0) {
+                items.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item;
+                    list.appendChild(li);
+                });
+            } else {
+                list.innerHTML = '<li>No specific data available</li>';
+            }
+        }
+
+    </script>
+</body>
+</html>

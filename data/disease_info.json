@@ -1,0 +1,999 @@
+{
+  "Apple___Apple_scab": {
+    "disease_name": "Apple Scab",
+    "description": "A serious fungal disease caused by Venturia inaequalis that affects apple leaves, buds, and fruits.",
+    "symptoms": [
+      "Olive-green to brown spots on leaves",
+      "Velvety texture on infected areas",
+      "Deformed or premature leaf drop",
+      "Scabby, dark lesions on fruit"
+    ],
+    "causes": [
+      "Prolonged wet conditions",
+      "High humidity",
+      "Overwintering fungus on fallen leaves"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Prune to improve air circulation",
+      "Remove and destroy fallen leaves in autumn",
+      "Avoid overhead watering"
+    ],
+    "fertilizers": [
+      "Balanced 10-10-10 fertilizer",
+      "Myclobutanil fungicide",
+      "Captan or Sulfur sprays"
+    ],
+    "usage_instructions": "Apply fungicides in early spring when green tips appear and repeat every 7-10 days during rainy periods.",
+    "recovery_tips": "Increase potassium and phosphorus to boost plant immunity.",
+    "crop_safety": "Avoid using sulfur on sulfur-sensitive varieties like Cox's Orange Pippin.",
+    "expert_suggestion": "Focus on sanitation. Removing old leaves significantly reduces the spore count for next season."
+  },
+  "Apple___Black_rot": {
+    "disease_name": "Apple Black Rot",
+    "description": "A fungal disease caused by Botryosphaeria obtusa that affects fruits, leaves, and bark.",
+    "symptoms": [
+      "Small purple spots on leaves expanding into 'frog-eye' lesions",
+      "Sunken brown spots on fruit with dark concentric rings",
+      "Cankers on branches and limbs"
+    ],
+    "causes": [
+      "Fungus overwintering in cankers or mummified fruit",
+      "Warm, wet weather",
+      "Physical injuries to the tree"
+    ],
+    "prevention": [
+      "Prune out dead wood and cankers",
+      "Remove mummified fruit from the tree",
+      "Maintain tree vigor through proper watering"
+    ],
+    "fertilizers": [
+      "Liquid Copper Fungicide",
+      "Mancozeb",
+      "Balanced N-P-K fertilizer"
+    ],
+    "usage_instructions": "Apply copper-based sprays during the dormant season and early bloom stage.",
+    "recovery_tips": "Severe pruning of infected limbs is necessary for long-term recovery.",
+    "crop_safety": "Copper can be phytotoxic to some varieties if used in high heat.",
+    "expert_suggestion": "Sterilize pruning tools with 10% bleach solution between cuts to prevent spread."
+  },
+  "Apple___Cedar_apple_rust": {
+    "disease_name": "Cedar Apple Rust",
+    "description": "A complex fungal disease that requires both apple trees and Junipers (cedars) to complete its life cycle.",
+    "symptoms": [
+      "Bright orange-yellow spots on upper leaf surfaces",
+      "Small tube-like structures on the underside of leaves",
+      "Premature defoliation"
+    ],
+    "causes": [
+      "Presence of nearby Juniper hosts",
+      "Spores carried by wind in humid conditions"
+    ],
+    "prevention": [
+      "Remove nearby Junipers (if possible)",
+      "Plant rust-resistant apple varieties",
+      "Apply preventative fungicides"
+    ],
+    "fertilizers": [
+      "Immunox (Myclobutanil)",
+      "Mancozeb",
+      "Organic Neem Oil"
+    ],
+    "usage_instructions": "Spray from pink bud stage through petal fall every 7-10 days.",
+    "recovery_tips": "Ensure the tree is well-hydrated to withstand the stress of defoliation.",
+    "crop_safety": "Generally safe for all apple varieties if used as directed.",
+    "expert_suggestion": "If you see orange 'galls' on nearby junipers, treat your apple trees immediately."
+  },
+  "Apple___healthy": {
+    "disease_name": "Healthy Apple Leaf",
+    "description": "The leaf appears healthy and free from noticeable fungal or bacterial pathogens.",
+    "symptoms": [
+      "Steady green color",
+      "Smooth surface",
+      "Normal growth pattern"
+    ],
+    "causes": [
+      "Optimal care",
+      "Good environmental conditions"
+    ],
+    "prevention": [
+      "Maintain regular watering",
+      "Ensure proper fertilization",
+      "Monitor for pests regularly"
+    ],
+    "fertilizers": [
+      "Slow-release organic compost",
+      "Mulching with organic matter"
+    ],
+    "usage_instructions": "Feed in early spring before new growth starts.",
+    "recovery_tips": "Continue your current maintenance routine.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Healthy leaves are a sign of good soil health. Keep the soil pH between 6.0 and 7.0 for optimal nutrient uptake."
+  },
+  "Blueberry___healthy": {
+    "disease_name": "Healthy Blueberry Leaf",
+    "description": "The blueberry plant shows no signs of disease or nutrient deficiency.",
+    "symptoms": [
+      "Vibrant green leaves",
+      "Firm leaf structure"
+    ],
+    "causes": [
+      "Acidic soil conditions",
+      "Consistent moisture"
+    ],
+    "prevention": [
+      "Keep soil pH between 4.5 and 5.2",
+      "Maintain a 3-inch layer of mulch"
+    ],
+    "fertilizers": [
+      "Acid-loving plant fertilizer (like Holly-tone)",
+      "Ammonium sulfate for nitrogen"
+    ],
+    "usage_instructions": "Apply fertilizer in early spring and again in late spring.",
+    "recovery_tips": "Maintain current care. Monitor for birds during fruiting.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Blueberries love acidic soil. If leaves turn yellow with green veins, check soil pH immediately."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "disease_name": "Cherry Powdery Mildew",
+    "description": "A fungal disease caused by Podosphaera clandestina, appearing as white powdery growth on leaves and fruit.",
+    "symptoms": [
+      "White, flour-like coating on young leaves",
+      "Curled or distorted leaf edges",
+      "Stunted growth of new shoots"
+    ],
+    "causes": [
+      "High humidity with moderate temperatures",
+      "Poor air circulation",
+      "Dry soil combined with humid canopy"
+    ],
+    "prevention": [
+      "Increase spacing between trees",
+      "Prune to open the canopy",
+      "Water from below to avoid wetting foliage"
+    ],
+    "fertilizers": [
+      "Neem Oil",
+      "Potassium Bicarbonate",
+      "Sulfur Fungicide"
+    ],
+    "usage_instructions": "Apply sulfur at the first sign of mildew. Do not apply when temperatures exceed 90°F.",
+    "recovery_tips": "Remove heavily infected shoots to stop the spread.",
+    "crop_safety": "Sulfur can damage foliage if applied in high heat.",
+    "expert_suggestion": "Applying a diluted milk spray (1:9 ratio) can sometimes control mild infections organically."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "disease_name": "Healthy Cherry Leaf",
+    "description": "The cherry plant is healthy and showing vigorous growth.",
+    "symptoms": [
+      "Rich green foliage",
+      "Clean leaf surfaces"
+    ],
+    "causes": [
+      "Well-drained soil",
+      "Adequate sunlight"
+    ],
+    "prevention": [
+      "Prune for structure annually",
+      "Monitor for aphids and mites"
+    ],
+    "fertilizers": [
+      "Balanced tree spikes",
+      "Organic compost"
+    ],
+    "usage_instructions": "Fertilize in early spring.",
+    "recovery_tips": "Healthy. Monitor for seasonal pests.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Good drainage is key for cherries. They hate 'wet feet' which can lead to root rot."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "disease_name": "Corn Gray Leaf Spot",
+    "description": "One of the most destructive diseases of corn, caused by the fungus Cercospora zeae-maydis.",
+    "symptoms": [
+      "Small tan spots with yellow halos",
+      "Long, rectangular lesions parallel to leaf veins",
+      "Grayish cast on mature lesions"
+    ],
+    "causes": [
+      "High humidity and long periods of leaf wetness",
+      "Reduced tillage leaving crop residue",
+      "Continuous corn planting"
+    ],
+    "prevention": [
+      "Rotate crops away from corn for at least one year",
+      "Manage residue through tillage",
+      "Plant resistant hybrids"
+    ],
+    "fertilizers": [
+      "Strobilurin fungicides (e.g., Headline)",
+      "Triazole fungicides",
+      "Potassium-rich fertilizers"
+    ],
+    "usage_instructions": "Apply fungicides when symptoms appear on the third leaf below the ear or higher.",
+    "recovery_tips": "Early detection is critical. Once it covers 50% of the leaf, yield loss is significant.",
+    "crop_safety": "Apply according to label rates to avoid resistance development.",
+    "expert_suggestion": "The rectangular shape of the spots is a key identifier. It's limited by the leaf veins."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "disease_name": "Corn Common Rust",
+    "description": "A fungal disease caused by Puccinia sorghi that appears as cinnamon-brown pustules on corn leaves.",
+    "symptoms": [
+      "Small, circular to elongated pustules",
+      "Cinnamon-brown spore masses",
+      "Pustules appear on BOTH upper and lower leaf surfaces"
+    ],
+    "causes": [
+      "Cool temperatures (15-22°C)",
+      "High humidity (above 95%)",
+      "Spores blown in from southern regions"
+    ],
+    "prevention": [
+      "Plant resistant corn hybrids",
+      "Plant early to avoid late-season spore peaks"
+    ],
+    "fertilizers": [
+      "Chlorothalonil",
+      "Propiconazole fungicide",
+      "Potassium to strengthen cell walls"
+    ],
+    "usage_instructions": "Fungicides are usually only economical for high-value seed corn or sweet corn.",
+    "recovery_tips": "Maintain nitrogen levels to help the plant outgrow the infection.",
+    "crop_safety": "Safe when used at recommended growth stages.",
+    "expert_suggestion": "Unlike Southern Rust, Common Rust pustules are found on both sides of the leaf. Use this for identification."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "disease_name": "Northern Corn Leaf Blight",
+    "description": "A fungal disease caused by Exserohilum turcicum, known for large cigar-shaped lesions.",
+    "symptoms": [
+      "Large (1-6 inch) cigar-shaped tan lesions",
+      "Lesions may have dark spores in the center",
+      "Heavily infected leaves may gray and die"
+    ],
+    "causes": [
+      "Moderate temperatures (18-27°C)",
+      "Frequent rain and heavy dew",
+      "Spores overwintering in corn residue"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Tillage to bury residue",
+      "Select resistant hybrids"
+    ],
+    "fertilizers": [
+      "Azoxystrobin",
+      "Pyraclostrobin",
+      "Phosphorus for root strength"
+    ],
+    "usage_instructions": "Apply fungicides at tasseling stage (VT) if symptoms are present.",
+    "recovery_tips": "Minimize moisture on leaves if using irrigation.",
+    "crop_safety": "Follow pre-harvest intervals (PHI) strictly.",
+    "expert_suggestion": "The 'cigar-shape' is the hallmark of this disease. It can spread very rapidly in wet summers."
+  },
+  "Corn_(maize)___healthy": {
+    "disease_name": "Healthy Corn Leaf",
+    "description": "The corn plant is healthy and producing strong foliage.",
+    "symptoms": [
+      "Vibrant green leaves",
+      "Upright leaf habit",
+      "No visible spots"
+    ],
+    "causes": [
+      "Good soil fertility",
+      "Timely rains"
+    ],
+    "prevention": [
+      "Ensure proper plant population",
+      "Manage weeds early"
+    ],
+    "fertilizers": [
+      "Nitrogen (Urea or Anhydrous)",
+      "Starter Phosphorus"
+    ],
+    "usage_instructions": "Side-dress nitrogen when corn is at V4-V6 stage.",
+    "recovery_tips": "Healthy. Maintain weed control.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Monitor for 'firing' or yellowing at the bottom of the plant, which may indicate nitrogen deficiency even if no disease is present."
+  },
+  "Grape___Black_rot": {
+    "disease_name": "Grape Black Rot",
+    "description": "One of the most damaging grape diseases, caused by the fungus Guignardia bidwellii.",
+    "symptoms": [
+      "Small tan spots on leaves with dark borders",
+      "Tiny black dots (fruiting bodies) within leaf spots",
+      "Grapes turn into dry, black, shriveled 'mummies'"
+    ],
+    "causes": [
+      "Warm, wet weather from bloom through fruit set",
+      "Overwintering spores on shriveled grapes (mummies)"
+    ],
+    "prevention": [
+      "Remove all mummified fruit during winter pruning",
+      "Prune for better air circulation",
+      "Plant in full sun"
+    ],
+    "fertilizers": [
+      "Mancozeb",
+      "Captan",
+      "Myclobutanil (Nova/Rally)"
+    ],
+    "usage_instructions": "Apply preventative sprays from early shoot growth until 2-4 weeks after bloom.",
+    "recovery_tips": "Prune out infected clusters immediately to prevent spread to healthy fruit.",
+    "crop_safety": "Do not use Mancozeb within 66 days of harvest.",
+    "expert_suggestion": "Early season control is the only way to save the fruit. Once the grapes start rotting, it's too late for that cluster."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "disease_name": "Grape Esca (Black Measles)",
+    "description": "A complex fungal disease affecting the wood and foliage of grapevines, often leading to sudden vine decline.",
+    "symptoms": [
+      "Yellow or red 'tiger-stripe' patterns on leaves",
+      "Tiny dark spots on fruit skins (measles)",
+      "Internal wood decay (white rot)"
+    ],
+    "causes": [
+      "Pathogenic fungi entering through pruning wounds",
+      "Vine stress (water or nutrient)"
+    ],
+    "prevention": [
+      "Apply wound sealants after pruning",
+      "Double pruning technique",
+      "Maintain vine vigor"
+    ],
+    "fertilizers": [
+      "Soil amendments to reduce vine stress",
+      "Phosphorus-based fungicides"
+    ],
+    "usage_instructions": "Focus on preventative pruning care. No effective chemical cure once in the wood.",
+    "recovery_tips": "In severe cases, the vine may need to be retrained from a healthy sucker.",
+    "crop_safety": "Wound sealants are generally safe.",
+    "expert_suggestion": "The 'tiger-stripe' leaf pattern is very distinct. It often affects only one branch initially."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "disease_name": "Grape Leaf Blight",
+    "description": "A late-season fungal disease caused by Pseudocercospora vitis.",
+    "symptoms": [
+      "Dark brown, irregular spots on leaves",
+      "Spots may coalesce into large blighted areas",
+      "Premature leaf drop in late summer"
+    ],
+    "causes": [
+      "High humidity in late summer",
+      "Poor air circulation within the canopy"
+    ],
+    "prevention": [
+      "Leaf pulling to increase airflow around clusters",
+      "Proper vine training"
+    ],
+    "fertilizers": [
+      "Copper-based fungicides",
+      "Bordeaux mixture"
+    ],
+    "usage_instructions": "Apply copper sprays if symptoms appear early in the season. Late infections usually don't need treatment.",
+    "recovery_tips": "Healthy vines will recover the following year.",
+    "crop_safety": "Copper can be harsh on young leaves; use with caution.",
+    "expert_suggestion": "This is usually a late-season disease and may not significantly impact fruit quality unless defoliation is severe."
+  },
+  "Grape___healthy": {
+    "disease_name": "Healthy Grape Leaf",
+    "description": "The grapevine is healthy and producing lush foliage.",
+    "symptoms": [
+      "Deep green, broad leaves",
+      "No visible spots or wilting"
+    ],
+    "causes": [
+      "Good canopy management",
+      "Balanced nutrition"
+    ],
+    "prevention": [
+      "Continue regular pruning",
+      "Monitor for Japanese beetles"
+    ],
+    "fertilizers": [
+      "Balanced 10-10-10 or 15-15-15",
+      "Magnesium sulfate (Epsom salts) if soil is deficient"
+    ],
+    "usage_instructions": "Apply fertilizer in early spring as buds break.",
+    "recovery_tips": "Healthy. Keep up with vineyard hygiene.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Healthy grapes need lots of sun. Ensure no over-shading from nearby trees."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "disease_name": "Citrus Greening (HLB)",
+    "description": "The most devastating citrus disease worldwide, caused by the bacterium Candidatus Liberibacter and spread by the Asian Citrus Psyllid.",
+    "symptoms": [
+      "Mottled yellowing of leaves (asymmetrical)",
+      "Small, bitter, misshapen fruit",
+      "Dieback of twigs and branches"
+    ],
+    "causes": [
+      "Asian Citrus Psyllid insect vector",
+      "Infected sap or grafting material"
+    ],
+    "prevention": [
+      "Control psyllid populations",
+      "Use certified disease-free nursery stock",
+      "Remove infected 'reset' trees immediately"
+    ],
+    "fertilizers": [
+      "Enhanced nutritional programs (Zinc, Manganese, Iron sprays)",
+      "Insecticides to kill psyllids"
+    ],
+    "usage_instructions": "Focus on foliar nutrition to keep the tree productive as long as possible.",
+    "recovery_tips": "Currently no cure. Management focuses on slowing spread and maintaining yield.",
+    "crop_safety": "Follow pesticide safety guidelines for citrus.",
+    "expert_suggestion": "The yellowing is 'asymmetrical' - if you fold the leaf in half, the yellow pattern won't match. This distinguishes it from nutrient deficiency."
+  },
+  "Peach___Bacterial_spot": {
+    "disease_name": "Peach Bacterial Spot",
+    "description": "A bacterial disease caused by Xanthomonas arboricola pv. pruni affecting leaves, fruit, and twigs.",
+    "symptoms": [
+      "Small water-soaked spots that turn purple/black",
+      "Spots may fall out, leaving 'shot-holes'",
+      "Deep pits or cracks on fruit"
+    ],
+    "causes": [
+      "Wind-blown rain and high humidity",
+      "Warm spring weather"
+    ],
+    "prevention": [
+      "Plant resistant peach varieties",
+      "Avoid excess nitrogen which promotes soft growth",
+      "Protect from wind damage"
+    ],
+    "fertilizers": [
+      "Copper-based bactericides",
+      "Oxytetracycline (Mycoshield)",
+      "Zinc sulfate (fall application)"
+    ],
+    "usage_instructions": "Apply copper in late dormancy. Use Oxytetracycline during the growing season.",
+    "recovery_tips": "Prune out infected twigs during winter.",
+    "crop_safety": "Copper can cause leaf damage ('phytotoxicity') if used after bloom.",
+    "expert_suggestion": "The 'shot-hole' appearance is very characteristic. Don't confuse it with insect damage."
+  },
+  "Peach___healthy": {
+    "disease_name": "Healthy Peach Leaf",
+    "description": "The peach tree is healthy and growing well.",
+    "symptoms": [
+      "Long, slender green leaves",
+      "Supple texture"
+    ],
+    "causes": [
+      "Good soil drainage",
+      "Proper winter pruning"
+    ],
+    "prevention": [
+      "Thin fruit to prevent branch breakage",
+      "Monitor for borers"
+    ],
+    "fertilizers": [
+      "Balanced N-P-K in early spring",
+      "Composted manure"
+    ],
+    "usage_instructions": "Apply fertilizer in a 2-3 foot band around the drip line.",
+    "recovery_tips": "Healthy. Monitor for seasonal changes.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Peach trees are short-lived. Keep them healthy through heavy annual pruning to stimulate new fruiting wood."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "disease_name": "Pepper Bacterial Spot",
+    "description": "A common and destructive disease of peppers in warm, humid climates, caused by Xanthomonas campestris.",
+    "symptoms": [
+      "Small, irregular chocolate-brown spots on leaves",
+      "Spots may have a yellow halo",
+      "Leaves may turn yellow and drop",
+      "Warty, raised spots on fruit"
+    ],
+    "causes": [
+      "Infected seeds or transplants",
+      "Splashing water (rain or overhead irrigation)"
+    ],
+    "prevention": [
+      "Use disease-free seeds",
+      "Rotate crops (no peppers or tomatoes for 2-3 years)",
+      "Mulch to prevent soil splashing"
+    ],
+    "fertilizers": [
+      "Copper fungicides/bactericides",
+      "Actigard (systemic acquired resistance inducer)"
+    ],
+    "usage_instructions": "Spray every 7-14 days during wet, warm weather.",
+    "recovery_tips": "Remove heavily infected plants to stop the spread.",
+    "crop_safety": "Copper is safe for peppers but can accumulate in soil over years.",
+    "expert_suggestion": "Avoid working in the garden when plants are wet, as the bacteria spread easily on hands and tools."
+  },
+  "Pepper,_bell___healthy": {
+    "disease_name": "Healthy Bell Pepper Leaf",
+    "description": "The pepper plant is healthy and producing well.",
+    "symptoms": [
+      "Broad, dark green leaves",
+      "Upright growth"
+    ],
+    "causes": [
+      "Consistent watering",
+      "Warm soil temperatures"
+    ],
+    "prevention": [
+      "Stake plants to support heavy fruit",
+      "Monitor for aphids"
+    ],
+    "fertilizers": [
+      "High-phosphorus fertilizer during flowering",
+      "Calcium (to prevent blossom end rot)"
+    ],
+    "usage_instructions": "Apply phosphorus when first flowers appear.",
+    "recovery_tips": "Healthy. Maintain moisture consistency.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Peppers need lots of calcium. If the bottom of the fruit turns black, it's a calcium deficiency, not a disease."
+  },
+  "Potato___Early_blight": {
+    "disease_name": "Potato Early Blight",
+    "description": "A fungal disease caused by Alternaria solani, characterized by 'target-like' leaf spots.",
+    "symptoms": [
+      "Dark brown spots with concentric rings (target pattern)",
+      "Lowest (oldest) leaves affected first",
+      "Stem lesions and tuber rot possible"
+    ],
+    "causes": [
+      "Warm/wet conditions followed by dry periods",
+      "Stressed or nutrient-deficient plants"
+    ],
+    "prevention": [
+      "Ensure adequate nitrogen and potassium",
+      "Practice crop rotation",
+      "Irrigate early in the day so leaves dry quickly"
+    ],
+    "fertilizers": [
+      "Chlorothalonil",
+      "Mancozeb",
+      "Potassium-rich fertilizers"
+    ],
+    "usage_instructions": "Apply fungicides when the first symptoms appear on lower leaves.",
+    "recovery_tips": "Healthy plants can 'outgrow' mild infections if fertilized properly.",
+    "crop_safety": "Safe when used according to label.",
+    "expert_suggestion": "The 'target' pattern in the spots is the most reliable way to identify Early Blight."
+  },
+  "Potato___Late_blight": {
+    "disease_name": "Potato Late Blight",
+    "description": "The infamous disease that caused the Irish Potato Famine, caused by the water mold Phytophthora infestans. Extremely aggressive.",
+    "symptoms": [
+      "Fast-expanding, water-soaked dark spots",
+      "White fuzzy growth on the underside of edges",
+      "Rotting 'fishy' odor in severe cases",
+      "Dark, firm rot in tubers"
+    ],
+    "causes": [
+      "Cool, rainy, very humid weather",
+      "Infected seed potatoes or cull piles"
+    ],
+    "prevention": [
+      "Use certified disease-free seed potatoes",
+      "Destroy potato 'cull piles'",
+      "Plant resistant varieties"
+    ],
+    "fertilizers": [
+      "Copper fungicides",
+      "Ridomil (systemic)",
+      "Chlorothalonil (preventative)"
+    ],
+    "usage_instructions": "Fungicides MUST be used preventatively when the 'Late Blight Forecast' is high.",
+    "recovery_tips": "If late blight is found in the garden, pull and destroy plants immediately. Do NOT compost.",
+    "crop_safety": "Safe for plants, but check pre-harvest interval.",
+    "expert_suggestion": "This disease can kill a whole field in days. The white fuzzy growth on the underside is the sign of active spore production."
+  },
+  "Potato___healthy": {
+    "disease_name": "Healthy Potato Leaf",
+    "description": "The potato plant is growing vigorously and showing no signs of blight.",
+    "symptoms": [
+      "Lush green, compound leaves",
+      "Sturdy stems"
+    ],
+    "causes": [
+      "Proper hilling",
+      "Disease-free seed"
+    ],
+    "prevention": [
+      "Hill plants to protect tubers from light/blight spores",
+      "Monitor for Colorado Potato Beetles"
+    ],
+    "fertilizers": [
+      "High-potassium organic fertilizer",
+      "Kelp meal"
+    ],
+    "usage_instructions": "Apply potassium at planting and at bloom stage.",
+    "recovery_tips": "Healthy. Keep hilling up the soil.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Keep the leaves dry. Overhead irrigation is the number one friend of potato diseases."
+  },
+  "Raspberry___healthy": {
+    "disease_name": "Healthy Raspberry Leaf",
+    "description": "The raspberry plant is healthy and preparing for fruit production.",
+    "symptoms": [
+      "Bright green, serrated leaves",
+      "Clean stems"
+    ],
+    "causes": [
+      "Well-drained, fertile soil",
+      "Full sun"
+    ],
+    "prevention": [
+      "Prune out spent floricanes after harvest",
+      "Ensure good air circulation"
+    ],
+    "fertilizers": [
+      "Balanced berries fertilizer",
+      "High-nitrogen in early spring"
+    ],
+    "usage_instructions": "Fertilize once in early spring and once in mid-summer.",
+    "recovery_tips": "Healthy. Keep mulch around the base.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Raspberries have shallow roots; don't cultivate the soil too deeply around them."
+  },
+  "Soybean___healthy": {
+    "disease_name": "Healthy Soybean Leaf",
+    "description": "The soybean plant is healthy and fixing nitrogen effectively.",
+    "symptoms": [
+      "Deep green, trifoliate leaves",
+      "Velvety texture"
+    ],
+    "causes": [
+      "Presence of Rhizobium bacteria",
+      "Adequate rainfall"
+    ],
+    "prevention": [
+      "Monitor for soybean aphids",
+      "Control weeds early"
+    ],
+    "fertilizers": [
+      "Rhizobium inoculant (at planting)",
+      "Potash (Potassium)"
+    ],
+    "usage_instructions": "Potassium is best applied before or at planting.",
+    "recovery_tips": "Healthy. Monitor for Japanese beetles during flowering.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Check for nitrogen-fixing nodules on the roots. They should be pink inside if they are active."
+  },
+  "Squash___Powdery_mildew": {
+    "disease_name": "Squash Powdery Mildew",
+    "description": "A very common fungal disease of cucurbits that looks like flour dusted on leaves.",
+    "symptoms": [
+      "White powdery circular spots",
+      "Spots spread to cover entire leaf",
+      "Leaves eventually turn yellow and brittle"
+    ],
+    "causes": [
+      "High humidity (even without rain)",
+      "Low light or heavy shading",
+      "Poor air circulation"
+    ],
+    "prevention": [
+      "Plant in full sun",
+      "Space plants widely",
+      "Select resistant varieties"
+    ],
+    "fertilizers": [
+      "Neem Oil",
+      "Sulfur",
+      "Potassium Bicarbonate (GreenCure)"
+    ],
+    "usage_instructions": "Treat at first sign. Repeat every 7 days as long as conditions are humid.",
+    "recovery_tips": "Severely infected leaves can be removed to reduce spore load.",
+    "crop_safety": "Sulfur can burn squash leaves if temperatures are above 85°F.",
+    "expert_suggestion": "A solution of 1 teaspoon baking soda and 1 quart water can be a good home remedy for early stage mildew."
+  },
+  "Strawberry___Leaf_scorch": {
+    "disease_name": "Strawberry Leaf Scorch",
+    "description": "Fungal disease caused by Diplocarpon earlianum that affects the foliage of strawberry plants.",
+    "symptoms": [
+      "Small purplish spots on the upper leaf surface",
+      "Spots expand and the centers remain purple (unlike Leaf Spot)",
+      "Blighted scorched appearance on leaf edges"
+    ],
+    "causes": [
+      "Long periods of leaf wetness",
+      "Overhead irrigation"
+    ],
+    "prevention": [
+      "Renovate beds after harvest",
+      "Remove old leaves in spring",
+      "Space plants to allow drying"
+    ],
+    "fertilizers": [
+      "Captan",
+      "Thiram",
+      "Balanced organic fertilizer"
+    ],
+    "usage_instructions": "Apply fungicides in early spring as new growth starts.",
+    "recovery_tips": "Healthy plants can tolerate some leaf scorch without yield loss.",
+    "crop_safety": "Follow pre-harvest intervals for all fungicides.",
+    "expert_suggestion": "Drip irrigation is much better than sprinklers for Strawberries to prevent this disease."
+  },
+  "Strawberry___healthy": {
+    "disease_name": "Healthy Strawberry Leaf",
+    "description": "The strawberry plant is healthy and producing runners or fruit.",
+    "symptoms": [
+      "Rich green, lustrous leaves",
+      "Clean berry clusters"
+    ],
+    "causes": [
+      "Adequate pine straw mulch",
+      "Proper winter protection"
+    ],
+    "prevention": [
+      "Monitor for slugs and mites",
+      "Remove dead leaves in late winter"
+    ],
+    "fertilizers": [
+      "10-10-10 fertilizer in late summer",
+      "Bone meal"
+    ],
+    "usage_instructions": "Avoid nitrogen in spring as it leads to soft fruit; fertilize after harvest.",
+    "recovery_tips": "Healthy. Maintain mulch level.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Keeping berries off the soil with straw mulch is the best way to prevent fruit rot diseases."
+  },
+  "Tomato___Bacterial_spot": {
+    "disease_name": "Tomato Bacterial Spot",
+    "description": "A serious bacterial disease caused by Xanthomonas species affecting all above-ground parts of the tomato plant.",
+    "symptoms": [
+      "Small, greasy black spots on leaves",
+      "Spots often have yellow halos",
+      "Raised, scab-like spots on fruit"
+    ],
+    "causes": [
+      "Infected seeds",
+      "High humidity and splashing water"
+    ],
+    "prevention": [
+      "Buy certified disease-free seeds",
+      "Sanitize stakes and tools",
+      "Rotate crops 2-3 years"
+    ],
+    "fertilizers": [
+      "Fixed Copper Fungicide",
+      "Mancozeb (often mixed with copper)",
+      "Balanced N-P-K"
+    ],
+    "usage_instructions": "Apply copper strictly every 7 days during wet weather.",
+    "recovery_tips": "Prune out infected lower leaves and destroy them.",
+    "crop_safety": "Copper is safe for tomatoes but limit use in extreme heat.",
+    "expert_suggestion": "This is often confused with early blight, but the 'greasy' appearance of the spots is a key indicator for bacteria."
+  },
+  "Tomato___Early_blight": {
+    "disease_name": "Tomato Early Blight",
+    "description": "A fungal disease caused by Alternaria solani that usually starts on the lower leaves of tomato plants.",
+    "symptoms": [
+      "Brown spots with concentric 'target' rings",
+      "Yellowing around the spots",
+      "Lower leaves yellow and die first"
+    ],
+    "causes": [
+      "Spores overwintering in soil",
+      "High humidity and leaf wetness"
+    ],
+    "prevention": [
+      "Mulch under plants to prevent soil splash",
+      "Prune lower leaves (bottom 12 inches)",
+      "Ensure good plant spacing"
+    ],
+    "fertilizers": [
+      "Chlorothalonil (Daconil)",
+      "Copper Fungicide",
+      "Potassium to boost cell wall strength"
+    ],
+    "usage_instructions": "Spray every 7-10 days once disease is spotted or as a preventative.",
+    "recovery_tips": "The plant can still produce well if only the lower leaves are affected.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Trimming the bottom-most leaves is your best defense. It prevents soil-borne spores from splashing up."
+  },
+  "Tomato___Late_blight": {
+    "disease_name": "Tomato Late Blight",
+    "description": "A highly destructive disease caused by Phytophthora infestans that can kill plants overnight.",
+    "symptoms": [
+      "Large, water-soaked dark patches",
+      "White mold on underside of patches",
+      "Fast-rotting fruit with greasy appearance"
+    ],
+    "causes": [
+      "Cool, rainy, ultra-humid weather",
+      "Infected transplants or nearby potato fields"
+    ],
+    "prevention": [
+      "Plant resistant varieties (e.g., 'Defiant', 'Iron Lady')",
+      "Avoid overhead watering",
+      "Destroy infected plants immediately"
+    ],
+    "fertilizers": [
+      "Copper-based sprays (preventative)",
+      "Phosphorus-rich fertilizers"
+    ],
+    "usage_instructions": "Requires regular preventative spraying if conditions are 'Late Blight positive'.",
+    "recovery_tips": "Recovery is unlikely. Focus on protecting uninfected plants.",
+    "crop_safety": "Late blight spores are extremely mobile; notify neighbors if found.",
+    "expert_suggestion": "This is the 'Terminator' of tomatoes. If you see white fuzz under dark leaves in rainy weather, act immediately!"
+  },
+  "Tomato___Leaf_Mold": {
+    "disease_name": "Tomato Leaf Mold",
+    "description": "A fungal disease caused by Passalora fulva, most common in greenhouses but can occur in the garden during humid spells.",
+    "symptoms": [
+      "Pale green or yellow spots on upper leaf surface",
+      "Olive-green to gray velvety growth on the undersides",
+      "Leaves eventually turn brown and wither"
+    ],
+    "causes": [
+      "High relative humidity (above 85%)",
+      "Poor air circulation within the plant canopy"
+    ],
+    "prevention": [
+      "Increase ventilation in greenhouses",
+      "Select resistant varieties",
+      "Avoid wetting the leaves"
+    ],
+    "fertilizers": [
+      "Chlorothalonil",
+      "Mancozeb",
+      "Potassium-rich organic fertilizers"
+    ],
+    "usage_instructions": "Spray fungicides if symptoms appear and humidity remains high.",
+    "recovery_tips": "Reducing humidity is more effective than any fungicide.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "The 'velvety' growth on the underside is the smoking gun for Leaf Mold."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "disease_name": "Tomato Septoria Leaf Spot",
+    "description": "A common fungal disease (Septoria lycopersici) that creates small, numerous spots on lower leaves.",
+    "symptoms": [
+      "Small, circular spots with dark borders and gray centers",
+      "Tiny black specks in the center of spots",
+      "Leaves turn yellow and fall off"
+    ],
+    "causes": [
+      "Warm temperatures and high humidity",
+      "Splashing rain"
+    ],
+    "prevention": [
+      "Mulch to prevent soil splash",
+      "Wait 3 years between planting tomatoes in same spot",
+      "Remove infected leaves immediately"
+    ],
+    "fertilizers": [
+      "Chlorothalonil",
+      "Copper Fungicide",
+      "Fish emulsion to help leaf regrowth"
+    ],
+    "usage_instructions": "Fungicide applications are often necessary if the disease appears during the first fruit set.",
+    "recovery_tips": "Septoria does not infect the fruit, so you can still harvest healthy tomatoes.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Septoria spots are much smaller/more circular than Early Blight spots and have distinct grey centers."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "disease_name": "Two-spotted Spider Mite",
+    "description": "Tiny arachnids that suck the life out of tomato leaves, especially during hot, dry weather.",
+    "symptoms": [
+      "Fine yellow or white stippling (dots) on leaves",
+      "Thin silken webs on the undersides of leaves",
+      "Leaves turn bronze and dry out"
+    ],
+    "causes": [
+      "Hot, dry, and dusty conditions",
+      "Over-use of broad-spectrum insecticides that kill their predators"
+    ],
+    "prevention": [
+      "Mist the plants with water occasionally",
+      "Keep plants well-hydrated",
+      "Encourage ladybugs and lacewings"
+    ],
+    "fertilizers": [
+      "Neem Oil (Mites)",
+      "Insecticidal soap",
+      "Lower-nitrogen fertilizer (high nitrogen attracts mites)"
+    ],
+    "usage_instructions": "Spray Neem Oil late in the day, ensuring you coat the UNDERSIDES of the leaves.",
+    "recovery_tips": "A strong blast of water can physically remove mites and their webs.",
+    "crop_safety": "Neem oil is safe but avoid spraying in direct sun.",
+    "expert_suggestion": "Spider mites are tiny. Shake a leaf over white paper; if the 'dust' starts crawling, you have mites."
+  },
+  "Tomato___Target_Spot": {
+    "disease_name": "Tomato Target Spot",
+    "description": "A fungal disease caused by Corynespora cassiicola, appearing as large, target-like lesions on leaves and fruit.",
+    "symptoms": [
+      "Large, brown leaf spots with distinct rings",
+      "Spots on fruit that look like sunken craters",
+      "Defoliation starting from the middle of the plant"
+    ],
+    "causes": [
+      "Warm/humid weather",
+      "Infected soil residue"
+    ],
+    "prevention": [
+      "Improve air flow",
+      "Keep soil covered with mulch",
+      "Remove old debris"
+    ],
+    "fertilizers": [
+      "Strobilurin fungicides",
+      "Mancozeb",
+      "Balanced N-P-K"
+    ],
+    "usage_instructions": "Fungicides are most effective when applied at the first sign of lesions.",
+    "recovery_tips": "Severe cases may require removal of the entire plant to protect others.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Target Spot fruit lesions are deeper and more sunken than Early Blight fruit lesions."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "disease_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "description": "A devastating viral disease spread by the Silverleaf Whitefly.",
+    "symptoms": [
+      "Severe stunting of the plant",
+      "Upward curling of leaves",
+      "Leaves turn yellow at the margins",
+      "Flowers drop, and fruit production stops"
+    ],
+    "causes": [
+      "Silverleaf Whitefly insect vector",
+      "Infected nearby weeds or plants"
+    ],
+    "prevention": [
+      "Use whitefly-resistant varieties",
+      "Use yellow sticky traps to monitor whiteflies",
+      "Cover plants with fine mesh row covers"
+    ],
+    "fertilizers": [
+      "Imidacloprid (for whitefly control)",
+      "Neem oil (organic whitefly control)",
+      "Seaweed extract for stress reduction"
+    ],
+    "usage_instructions": "Controlling the whitefly is the ONLY way to manage this virus.",
+    "recovery_tips": "There is no cure for the virus. Infected plants should be bagged and removed.",
+    "crop_safety": "Handle infected plants with care to avoid spread via hands.",
+    "expert_suggestion": "The upward 'cupping' of small leaves is very characteristic. If the plant looks like a 'bonsai', it's likely TYLCV."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "disease_name": "Tomato Mosaic Virus (ToMV)",
+    "description": "A very hardy virus that can persist on tools and in the soil for years.",
+    "symptoms": [
+      "Mottled green and yellow patterns (mosaic) on leaves",
+      "Fern-like leaf growth ('straps')",
+      "Internal browning of fruit"
+    ],
+    "causes": [
+      "Contaminated seeds",
+      "Mechanical spread (hands, tools, handling tobacco)"
+    ],
+    "prevention": [
+      "Buy ToMV resistant seeds",
+      "Wash hands with soap before touching plants",
+      "Don't smoke or use tobacco near tomato plants"
+    ],
+    "fertilizers": [
+      "Soil amendments for immune health",
+      "Micronutrient foliar sprays"
+    ],
+    "usage_instructions": "Focus on hygiene. Avoid touching plants unnecessarily.",
+    "recovery_tips": "The plant will not recover. It can stay alive but will produce poor fruit and spread virus.",
+    "crop_safety": "Extremely contagious. Sterilize all tools used on infected plants.",
+    "expert_suggestion": "Tobacco users should be especially careful, as the virus can be on cigarettes/tobacco products."
+  },
+  "Tomato___healthy": {
+    "disease_name": "Healthy Tomato Leaf",
+    "description": "The tomato plant is healthy and thriving.",
+    "symptoms": [
+      "Lush, dark green foliage",
+      "Strong vertical growth"
+    ],
+    "causes": [
+      "Correct watering (1 inch per week)",
+      "Full sun (8+ hours)"
+    ],
+    "prevention": [
+      "Continue deep watering at the base",
+      "Support with cages or stakes"
+    ],
+    "fertilizers": [
+      "Tomato-tone or similar organic fertilizer",
+      "Epsom salts (1 tbsp per plant for magnesium)"
+    ],
+    "usage_instructions": "Apply fertilizer every 4 weeks after the first fruit set.",
+    "recovery_tips": "Healthy. Maintain current practices.",
+    "crop_safety": "Safe",
+    "expert_suggestion": "Healthy tomatoes need consistent moisture to prevent blossom end rot, which is a physiological disorder, not a disease."
+  }
+}
