@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plant Disease Predictor
 
 A web-based application built with Flask and TensorFlow to predict plant diseases from images. This application allows users to upload a leaf image and receive a prediction along with a confidence score.
@@ -121,3 +122,6 @@ Transferring this project is simple. Here is a step-by-step guide:
 6.  **Run the app:** `python app.py`
 
 If you copied the `models/` folder, the app will work immediately with your trained model. If not, it will run in mock mode until you transfer your dataset and run `python train_model.py` again.
+=======
+# Plant-Leaf-Disease-Detecting-Model
+>>>>>>> d9bcc26bddc21f3ce337f76a0c24520f37eeccb0
